@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ex"
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="Exercices" />
+        <item
+            android:id="@+id/nav_hist"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Historique" />
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@android:drawable/ic_menu_sort_alphabetically"
+            android:title="Statistiques globales" />
+        <item
+            android:id="@+id/nav_class"
+            android:icon="@android:drawable/arrow_down_float"
+            android:title="Classement" />
+    </group>
+
+    <item
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Mes amis" />
+    <item android:title="Autres">
+        <menu>
+            <item
+                android:id="@+id/nav_sons"
+                android:icon="@android:drawable/ic_lock_silent_mode"
+                android:title="Sons" />
+            <item
+                android:id="@+id/nav_deco"
+                android:icon="@android:drawable/ic_lock_idle_lock"
+                android:title="Se déconnecter" />
+        </menu>
+    </item>
+
+</menu>
